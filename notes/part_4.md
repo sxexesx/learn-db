@@ -3,7 +3,7 @@
 Аналог горизонтального соединения
 
 <div>
-  <img width="500" height="500" src="src/img09.png" alt="">
+  <img width="500" height="500" src="_src/img09.png" alt="">
 </div>
 
 `CROSS JOIN` - декартово произведение(каждой строчке одной таблицы сопоставляем каждую строчку другой)  
@@ -12,7 +12,7 @@
 Старый синтаксис (SQL-89): `FROM t1, t2`
 
 <div>
-  <img width="300" height="320" src="src/img05.png" alt="">
+  <img width="300" height="320" src="_src/img05.png" alt="">
 </div>
 
 `INNER JOIN` - декартово произведение + фильтрация
@@ -20,7 +20,7 @@
 `FROM t1 [INNER] JOIN t2 on t1.id = t2.id`
 
 <div>
-  <img width="300" height="320" src="src/img06.png" alt="">
+  <img width="300" height="320" src="_src/img06.png" alt="">
 </div>
 
 `LEFT/RIGHT JOIN` - INNER JOIN + внешние строки
@@ -28,7 +28,7 @@
 `FROM t1 LEFT [OUTER] JOIN t2 on t1.id = t2.id`
 
 <div>
-  <img width="300" height="320" src="src/img07.png" alt="">
+  <img width="300" height="320" src="_src/img07.png" alt="">
 </div>
 
 `FULL JOIN` - LEFT + RIGHT JOIN
@@ -45,7 +45,7 @@
 `UNION` - это `UNION ALL` + `DISTINCT`
 
 <div>
-  <img width="500" height="240" src="src/img08.png" alt="">
+  <img width="500" height="240" src="_src/img08.png" alt="">
 </div>
 
 # Агрегатные функции
@@ -99,3 +99,9 @@ FROM Пользователи GROUP BY CUBE(Страна, Город);
 Результат: ABC + AB + BC + A + B + C + ()  
 
 Тогда как GROUP BY `AA, BB, CC`  
+
+
+<br>
+<br>  
+
+[>>> Назад <<<](../README.md)

@@ -111,3 +111,8 @@ create table #T (id not null);
 по большому счету, ничем не отличаются. [Источник](https://habr.com/ru/articles/773972/)
 </details>
 
+
+<br>
+<br>  
+
+[>>> Назад <<<](../README.md)

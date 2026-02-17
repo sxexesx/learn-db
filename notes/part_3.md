@@ -166,3 +166,8 @@ Collation - параметры сортировки (например, Cyrillic_
 5. Truncate не влияет на sequence
 
 
+
+<br>
+<br>  
+
+[>>> Назад <<<](../README.md)
