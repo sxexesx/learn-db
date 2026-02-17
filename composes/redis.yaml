@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  cache:
+    image: redis:alpine
+    restart: always
+    container_name: redis-cache
+
+    command: redis-server
+    # --requirepass password
+    # -- loglevel warning
+    ports:
+      - 6379:6379
+
+    volumes:
+      - cache:/data
+
+volumes:
+  cache:
+    driver: local
