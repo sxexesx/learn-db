@@ -1,8 +1,16 @@
-# Состав БД
+# Компоненты БД
 
 ## Классическая реляционная БД
 
 <img src="_src/pic_01.png">
+
+## Колоночная (NoSQL) БД
+
+Другой тип хранения данных - это LSM (Log-Structured Merge tree).
+
+<img src="_src/pic_06.png">
+
+## Компоненты
 
 ### Storage
 
@@ -45,9 +53,4 @@
 <img src="_src/pic_07.png">
 
 
-## NoSQL 
-
-Другой тип хранения данных - это LSM (Log-Structured Merge tree).
-
-<img src="_src/pic_06.png">
 
