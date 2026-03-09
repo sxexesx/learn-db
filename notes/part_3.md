@@ -10,9 +10,8 @@
 
 <img src="_src/pic_06.png">
 
-## Компоненты
 
-### Storage
+## Storage
 
 [Подробнее ссылка](https://www.interdb.jp/pg/pgsql01/03.html)
 
@@ -22,17 +21,17 @@
 
 **Vacuum** - условный garbage collector для данных, который убирает неиспользованные данные.  
 
-### System Catalog 
+## System Catalog 
 
 Директория, которая хранит мета-данные о данных в бд.
 
 <img src="_src/pic_04.png">
 
-### Buffer pool 
+## Buffer pool 
 
 Выполняет функции кэша, а  так же разные утилитарные методы для ускорения работы БД.  
 
-###  Index
+##  Index
 
 **Кластеризованный** - индекс диктует в каком порядке будут хранятся данные в файлы.
 
@@ -53,4 +52,31 @@
 <img src="_src/pic_07.png">
 
 
+## Recovery manager
+
+
+### Steal policy
+
+Steal / No steal - разрешает "грязные" (содержащие ненужную информацию) пэйджи записывать на диск.
+
+Плюс: можем освободить место в buffer pool.   
+Минус: просачивается ненужная информация - незакоммиченные транзакции и пр.  
+
+
+### Force policy
+
+Force policy - все изменения перенесены на диск
+No force policy - изменения на диск не перенесены, но информации достаточно, чтобы записи восстановить.  
+
+### WAL (write ahead log)
+
+Это журнал операций.
+
+<img src="_src/pic_13.png">
+
+WAL состоит из TransactionID, Object ID, Before Value / After Value, Timestamp, Checksum.
+
+Чтобы в случае падения не читать весь WAL и не накатывать всё с самого начала, используются checkpoint'ы.   
+
+<img src="_src/pic_14.png">
 
