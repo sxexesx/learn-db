@@ -18,6 +18,7 @@
     - [Индексы](notes/part_6.md)
     - [Репликация](notes/part_7.md)
     - [Шардирование](notes/part_8.md)
+    - [Блокировки](notes/part_9.md)
 
 
 
