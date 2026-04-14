@@ -1,6 +1,6 @@
 # Транзакции
 
-
+[Статья про изоляцию](https://habr.com/ru/companies/postgrespro/articles/442804/)
 
 ## Принцип ACID
 

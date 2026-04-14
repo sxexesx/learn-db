@@ -15,6 +15,7 @@
     - [Компоненты реляционной БД](notes/part_3.md)
     - [Компоненты нереляционной БД](notes/part_4.md)
     - [Транзакции и управление ими](notes/part_5.md)
+        -  [Шедулер](notes/part_5.md#schedule) 
     - [Индексы](notes/part_6.md)
     - [Репликация](notes/part_7.md)
     - [Шардирование](notes/part_8.md)
@@ -33,7 +34,11 @@
     - [Вопросы к собеседованию](notes/part_x.md)
 
 
-2. Задачи sqlex.ru    
+3. Задачи sqlex.ru    
     - [схемы](sqlex.ru/schemas.md)
     - [задания 1-19](sqlex.ru/tasks1-19.sql)
     - [задания 20-30](sqlex.ru/tasks20-39.sql)
+
+
+Почитать:  
+- [Explain (Analyze)](https://habr.com/ru/articles/203320/)
