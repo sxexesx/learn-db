@@ -17,7 +17,6 @@
     - [Транзакции и управление ими](notes/part_5.md)
         -  [Шедулер](notes/part_5.md#schedule) 
     - [Индексы](notes/part_6.md)
-    - [Шардирование](notes/part_8.md)
     - [Блокировки](notes/part_9.md)
 
 
